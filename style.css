@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Comfortaa", cursive;
   color: #398ebf;
 }
 
@@ -68,6 +68,7 @@ a:hover {
 
 .about-me-link {
   margin-top: 10px;
+  animation: pulse 5s infinite;
 }
 
 .about-me-link a {
@@ -77,6 +78,14 @@ a:hover {
 
 .about-me-link a:hover {
   text-decoration: underline wavy #398ebf;
+}
+@keyframes pulse {
+  0% {
+    text-shadow: 1px 1px white;
+  }
+  100% {
+    text-shadow: 1px 1px rgb(87, 150, 201);
+  }
 }
 
 .article {
