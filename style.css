@@ -1,8 +1,9 @@
+html {
+  cursor: url("banana.png") 16 0, auto;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
-  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🍌</text></svg>")
-      16 0,
-    auto;
   color: #398ebf;
 }
 
@@ -59,4 +60,17 @@ body {
 
 .social-media a:visited {
   color: #e3a019;
+}
+
+.about-me-link {
+  margin-top: 10px;
+}
+
+.about-me-link a {
+  color: #398ebf;
+  text-decoration: none;
+}
+
+.about-me-link a:hover {
+  text-decoration: underline wavy #398ebf;
 }
